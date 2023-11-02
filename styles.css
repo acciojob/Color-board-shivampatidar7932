@@ -1,18 +1,32 @@
 /*  your css code here. If applicable */
-.container {
-    display: grid;
-    grid-template-columns: repeat(20, 40px); /* Adjust grid properties as needed */
-    gap: 2px; /* Adjust gap between squares as needed */
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.square {
-    width: 40px;
-    height: 40px;
-    background-color: #e0e0e0; /* Initial background color */
-    transition: background-color 1s; /* Smooth transition for 1 second */
-    cursor: pointer;
+.item {
+	width:70px;
+	height:70px;
+    background-color: #ccc;
+    padding: 10px;
+	font-size:32px;
 }
-
-.square:hover {
-    background-color: 'rgb(29, 29, 29); /* Color change on hover */
+.yo-1{
+	order:2;
+	background-color:red;
+}
+.yo-2{
+	order:3;
+	background-color:blue;
+}
+.yo-3{
+	order:1;
+	background-color:green;
+}
+.holder{
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
