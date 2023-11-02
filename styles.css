@@ -1,5 +1,5 @@
 /*  your css code here. If applicable */
-.row {
+.container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,7 +24,7 @@
 	order:1;
 	background-color:green;
 }
-.holder{
+.square{
 	display: flex;
     flex-wrap: wrap;
     justify-content: center;
